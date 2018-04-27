@@ -12,3 +12,15 @@ To run
 
     $ cd classes     
     $ kotlin FunctorsPlaygroundKt 
+
+## Part 1 Summary - Functors
+
+Functor is a value with a wrapper or context.
+ 
+map (kotlin) takes a Functor, unwraps the value, applies the method, and re-wraps
+
+w[v].map(f)  (becomes)  w[f(v)]
+
+
+
+
